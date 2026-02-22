@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    color: #052542;
+    background-color: #e0ecf2;
+}
+
+.break {
+    height: 2px;
+    background-color: #052542;
+    margin: 1rem 0;
+}
+
+main {
+    display: flex;
+    background-color: #cad4da;
+}
+
+span {
+    background-color: #e0ecf2;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px #00000066;
+}
+
+span.right-column {
+    margin: 1rem;
+    border-radius: 10px;
+    min-width: 69%;
+}
+
+h1 {
+    word-spacing: 0.5rem;
+    line-height: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 1rem;
+}
+
+ul > i {
+    display: block;
+    /*alinhar os icones*/
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #e0ecf2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #052542;
+}
+
+a:hover {
+    color: #73899a;
+}
