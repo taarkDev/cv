@@ -10,7 +10,7 @@ body {
     background-color: #e0ecf2;
 }
 
-.break {
+div.break {
     height: 2px;
     background-color: #052542;
     margin: 1rem 0;
@@ -21,18 +21,6 @@ main {
     background-color: #cad4da;
 }
 
-span {
-    background-color: #e0ecf2;
-    padding: 1rem;
-    box-shadow: 0px 0px 10px #00000066;
-}
-
-span.right-column {
-    margin: 1rem;
-    border-radius: 10px;
-    min-width: 69%;
-}
-
 h1 {
     word-spacing: 0.5rem;
     line-height: 2rem;
@@ -41,15 +29,68 @@ h1 {
 ul {
     list-style-type: none;
     padding-inline-start: 1rem;
-}
 
-ul > i {
-    display: block;
+    i {
+        display: block;
     /*alinhar os icones*/
+    }
 }
 
 h2 {
     text-transform: uppercase;
+}
+
+span {
+    background-color: #e0ecf2;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px #00000066;
+}
+
+div.progress-bar {
+    border-radius: 5px;
+    background-color: #05254233;
+    text-align: end;
+
+    .fill {
+        border-radius: 5px;
+    }
+
+    .value {
+        color: #e0ecf2;
+        padding-right:0.25rem;
+    }
+}
+
+/* Skills */
+    .skill-1 .fill {
+        background-color: #7b4536;
+    }
+
+    .skill-2 .fill {
+        background-color: #17459a;
+    }
+
+    .skill-3 .fill {
+        background-color: #7b8049;
+    }
+
+    .skill-4 .fill {
+        background: linear-gradient(180deg, #285880 50%, #82875b 50%);
+    }
+
+/* Langs */
+    .lang-1 .fill {
+        background-color: #4F7D4F; /*#3AD43A*/
+    }
+
+    .lang-2 .fill {
+        background-color: #7D4E4E;
+    }
+
+span.right-column {
+    margin: 1rem;
+    border-radius: 10px;
+    min-width: 69%;
 }
 
 footer {
